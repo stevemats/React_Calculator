@@ -13,8 +13,8 @@
 - ~~screen styled component creation.~~
 - ~~Btn styled component creation.~~
 - ~~Handling the number btn clicks.~~
-- Delete and Clear functionality.
-- operation clicks & equals btn.
+- ~~Delete and Clear functionality.~~
+- ~~operation clicks & equals btn.~~
 - computing the value.
 - Project deployment.
 
