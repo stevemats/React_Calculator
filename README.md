@@ -4,15 +4,19 @@
 
 ![Screenshot 2021-10-18 at 18-37-33 React App](https://user-images.githubusercontent.com/30528167/137763824-77775658-6353-4eca-a532-f3a502500eb1.png)
 
+## Progress:
+
+![Screenshot 2021-10-19 at 14-01-54 React App](https://user-images.githubusercontent.com/30528167/137897295-cac74228-7255-4b26-bb6c-10ee5494ff0b.png)
+
 ## ToDo:
 
-- screen styled component creation.
-- Btn styled component creation.
+- ~~screen styled component creation.~~
+- ~~Btn styled component creation.~~
 - Handling the number btn clicks.
 - Delete and Clear functionality.
 - operation clicks & equals btn.
 - computing the value.
--
+- Project deployment.
 
 ## Usage Commands:
 
