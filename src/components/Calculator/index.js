@@ -4,7 +4,9 @@ import { Container, Screen, Current, Previous, Button } from "./Styled";
 export default function Calculator() {
 
     // storing state for values using array constant
+    const [previous, setPrevious] = useState ('')
     const [current, setCurrent] = useState ('')
+    const [operation, setOperation] = useState ('')
 
     // displays called operations
     const appendValue = (el) => {
@@ -17,14 +19,26 @@ export default function Calculator() {
         setCurrent(current + value) 
     }
 
+    //Handling user deletes
+    const handleDelete = () => {
+        setCurrent(String(current).slice(0, -1))
+    }
+
+    //Clear user screen on request
+    const handleAllClear = () => {
+        setCurrent('')
+        setPrevious('')
+        setOperation('')
+    }
+
     return (
         <Container>
             <Screen>
-                <Previous>20 +</Previous>
+                <Previous>{previous} {operation}</Previous>
                 <Current>{current}</Current>
             </Screen>
-            <Button gridSpan={2} control>AC</Button>
-            <Button control>DEL</Button>
+            <Button onClick={handleAllClear} gridSpan={2} control>AC</Button>
+            <Button onClick={handleDelete} control>DEL</Button>
             <Button operation>÷</Button>
             <Button data={'7'} onClick={appendValue}>7</Button>
             <Button data={'8'} onClick={appendValue}>8</Button>
