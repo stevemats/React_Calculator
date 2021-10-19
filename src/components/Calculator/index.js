@@ -55,9 +55,34 @@ export default function Calculator() {
     }
 
     const compute = () => {
+        let result
+        // parseFloat: JS string to number dataType convertion
+        let previousNumber = parseFloat(previous)
+        let currentNumber = parseFloat(current)
 
+        if(isNaN(previousNumber) || isNaN(currentNumber)) return
+
+        switch(operation) {
+            case '÷':
+                result = previousNumber / currentNumber;
+                break;
+            case '×':
+                result = previousNumber * currentNumber;
+                break;
+            case '+':
+                result = previousNumber + currentNumber;
+                break;
+            case '-':
+                result = previousNumber - currentNumber;
+                break;
+            default:
+                return
+        }
+
+        return result;
     }
 
+    
     return (
         <Container>
             <Screen>

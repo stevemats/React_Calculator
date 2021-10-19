@@ -15,8 +15,13 @@
 - ~~Handling the number btn clicks.~~
 - ~~Delete and Clear functionality.~~
 - ~~operation clicks & equals btn.~~
-- computing the value.
+- ~~computing the value.~~
 - Project deployment.
+
+## Operations:
+
+- AC: Clears the calculator and resets any function(s) that the user has entered.
+- DEL: Clears/deletes the last entered digit by user.
 
 ## Usage Commands:
 
