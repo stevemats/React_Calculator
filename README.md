@@ -16,7 +16,7 @@
 - ~~Delete and Clear functionality.~~
 - ~~operation clicks & equals btn.~~
 - ~~computing the value.~~
-- Project deployment.
+- ~~Project deployment.~~
 
 ## Operations:
 
